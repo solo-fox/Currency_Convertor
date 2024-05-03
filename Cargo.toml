@@ -1,0 +1,15 @@
+[package]
+name = "Currency Convertor"
+description = "Lightweight currency conversion library."
+version = "0.1.1"
+authors = ["Solo-fox work.abdelrahman@outlook.com"]
+documentation = "https://docs.rs/cashify"
+keywords = ["currency", "conversion", "money", "exchange", "rates"]
+license = "MIT"
+readme = "readme.md"
+exclude = [".travis.yml"]
+edition = "2018"
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
